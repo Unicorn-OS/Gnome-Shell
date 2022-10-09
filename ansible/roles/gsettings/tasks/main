@@ -1,0 +1,4 @@
+---
+- name: click-policy Single
+  ansible.builtin.command: gsettings set org.gnome.nautilus.preferences click-policy 'single'
+
